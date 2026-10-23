@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@keyframes scaleIn {
+  0% {
+    transform: scale(0.4);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+body {
+  margin: 0;
+  background-color: #1a0b04;
+  color: #fff3d1;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom warm wooden surface pattern */
+.wood-table-surface {
+  background:
+    radial-gradient(ellipse at 50% 15%, rgba(245, 158, 11, 0.16), transparent 65%),
+    repeating-linear-gradient(
+      90deg,
+      rgba(42, 18, 5, 0.25) 0px,
+      rgba(68, 30, 9, 0.25) 18px,
+      rgba(36, 14, 4, 0.3) 36px
+    ),
+    linear-gradient(180deg, #3b1a08 0%, #261004 52%, #1b0b02 100%);
+}

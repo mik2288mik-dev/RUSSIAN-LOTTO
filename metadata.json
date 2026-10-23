@@ -1,0 +1,6 @@
+{
+  "name": "Русское лото — Классическая игра",
+  "description": "Настоящее Русское лото с анимированной ведущей, деревянными бочонками, тремя карточками, магазином украшений, друзьями и турнирами.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
